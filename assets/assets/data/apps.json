@@ -16,10 +16,10 @@
         "Clean Architecture"
       ],
       "screenshots": [
-        "projects/checklist/checklist_1.png",
-        "projects/checklist/checklist_2.png",
-        "projects/checklist/checklist_3.png",
-        "projects/checklist/checklist_4.png"
+        "https://yonelyvan.github.io/portfolio/data/imgs/projects/checklist/checklist_1.png",
+        "https://yonelyvan.github.io/portfolio/data/imgs/projects/checklist/checklist_2.png",
+        "https://yonelyvan.github.io/portfolio/data/imgs/projects/checklist/checklist_3.png",
+        "https://yonelyvan.github.io/portfolio/data/imgs/projects/checklist/checklist_4.png"
       ],
       "links": {
         "playStore": "https://play.google.com/store/apps/details?id=com.example.app",
@@ -41,10 +41,10 @@
         "MongoDB"
       ],
       "screenshots": [
-        "projects/grow_sf/screen1.jpeg",
-        "projects/grow_sf/screen2.jpeg",
-        "projects/grow_sf/screen3.jpeg",
-        "projects/grow_sf/screen4.jpeg"
+        "https://yonelyvan.github.io/portfolio/data/imgs/projects/grow_sf/screen1.jpeg",
+        "https://yonelyvan.github.io/portfolio/data/imgs/projects/grow_sf/screen2.jpeg",
+        "https://yonelyvan.github.io/portfolio/data/imgs/projects/grow_sf/screen3.jpeg",
+        "https://yonelyvan.github.io/portfolio/data/imgs/projects/grow_sf/screen4.jpeg"
       ],
       "links": {
         "github": "https://github.com/usuario/otra-app"
