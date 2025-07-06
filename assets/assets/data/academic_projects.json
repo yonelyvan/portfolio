@@ -1,0 +1,68 @@
+{
+  "projects": [
+
+    {
+      "id": "stdetector",
+      "title": "Real-Time Stress Detector using Voice and GSR Signals",
+      "description": "This project presents the design, implementation, and evaluation of a multimodal system capable of detecting human stress levels in real-time using voice signals and Galvanic Skin Response (GSR) data. By integrating both behavioral and physiological indicators, the system aims to improve the accuracy and robustness of stress detection in various contexts. Stress is a critical factor affecting physical and mental health. Most existing systems rely on a single type of input, either physiological or behavioral, which limits their reliability. This project addresses that limitation by combining two complementary data sources: voice signals and GSR data. The main objective is to develop and evaluate a low-cost, mobile-compatible, multimodal stress detection system that classifies user stress levels in real time using voice and GSR inputs. A custom Arduino-based prototype collects GSR signals and transmits them via Bluetooth to a mobile device. A Flutter-based Android application displays real-time stress levels, while a Python Flask backend processes voice data. Signal processing includes voice activity detection, MFCC extraction, and SAX discretization for GSR. Support Vector Machines (SVM) and Artificial Neural Networks (ANN) are used to classify stress levels. Voice and GSR predictions are fused using a Kalman filter to enhance temporal stability. The system was tested using public datasets (RAVDESS, EMO-DB, WESAD) and through repeated real-time experiments involving meditation and stress-inducing tasks like the Stroop test. Metrics such as precision, recall, accuracy, and F1-score were calculated. Results showed an accuracy of up to 85% with SVM on RAVDESS and 92% with ANN on EMO-DB for voice-based detection, while real-time GSR-based detection reached an accuracy of 88.8%. Most users showed expected stress responses aligned with task phases, while a few had delayed or undetected responses. In conclusion, this research demonstrates the feasibility of a real-time, low-cost, mobile-integrated stress detection system. The multimodal approach enhances robustness and may support future applications in healthcare, workplace monitoring, and emotional well-being.",
+      "projectType": "Internal mobile app",
+      "platforms": [
+        "Android", "Linux", "Arduino"
+      ],
+      "client": "Proyecto Kusisqa - UNSA",
+      "year": 2025,
+      "role" : "Lead Developer and Principal Researcher",
+      "contributions": [
+        "Designed and assembled Arduino-based hardware for GSR data acquisition",
+        "Developed a cross-platform Android app using Flutter",
+        "Implemented local processing for GSR signals within the app",
+        "Built a backend API using Python and Flask for voice signal classification",
+        "Preprocessed voice signals using VAD, downsampling, and normalization",
+        "Extracted MFCC features from audio using Librosa",
+        "Trained and evaluated SVM and ANN models using RAVDESS and EMO-DB datasets for stress classification",
+        "Implemented SAX discretization algorithm for stress level detection from GSR signals",
+        "Applied decision-level fusion between GSR and voice signals using weighted sum and Kalman filter",
+        "Created real-time data visualization in the mobile app for user stress feedback",
+        "Conducted extensive experiments to evaluate stress detection using both voice and GSR data",
+        "Analyzed public datasets (RAVDESS, EMO-DB, WESAD) for voice and physiological stress detection benchmarks",
+        "Applied precision, recall, accuracy, and F-score metrics for performance evaluation of classifiers",
+        "Executed exploratory tests with 8 sessions on a human participant for real-time GSR stress detection",
+        "Used Stroop effect and guided meditation as controlled conditions to induce and reduce stress",
+        "Performed statistical analysis (mean, standard deviation, box plots) on real-time GSR data across 25-minute sessions",
+        "Achieved 88.8% accuracy in real-time stress detection via GSR, outperforming previous state-of-the-art results"
+      ],
+      "tech_stack": [
+        "Python",
+        "C++",
+        "Flutter (Dart)",
+        "Flask", 
+        "Keras",
+        "Scikit-learn",
+        "Librosa", 
+        "Jupyter Notebook", 
+        "Arduino UNO",
+        "ESP32",
+        "GSR Sensor",
+        "Bluetooth Module HC-05",
+        "SVM",
+        "ANN"
+        
+      ],
+      "technologies": [],
+      "has_frame": true,
+      "screenshots": [
+        "https://yonelyvan.github.io/portfolio/data/imgs/projects/stdetector/img1.png",
+        "https://yonelyvan.github.io/portfolio/data/imgs/projects/stdetector/img2.png",
+        "https://yonelyvan.github.io/portfolio/data/imgs/projects/stdetector/img3.png",
+        "https://yonelyvan.github.io/portfolio/data/imgs/projects/stdetector/img5.png",
+        "https://yonelyvan.github.io/portfolio/data/imgs/projects/stdetector/img4.png"
+        
+      ],
+      "links": {
+        "github": "nilll"
+      }
+    }
+    
+  ]
+}
+

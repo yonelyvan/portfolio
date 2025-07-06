@@ -1,20 +1,300 @@
 {
   "projects": [
+
     {
-      "id": "app1",
-      "title": "Nombre de la App",
-      "description": "Breve descripción del propósito y funcionalidades principales de la aplicación.",
-      "tags": [
-        "Flutter",
-        "Firebase",
-        "BLoC"
+      "id": "Sifrah",
+      "title": "Sifrah",
+      "description": "Sifrah is a mobile checklist application developed for the nationwide retail chain Sifrah in Peru. Designed for Android and iOS, it streamlines operations between supervisors and workers, enabling task assignment (individual or group), progress tracking, and the attachment of supporting files or photos. The app includes automatic notifications, daily progress visualization, multimedia help resources, and a personalized user profile. It is part of a complete ecosystem consisting of a backend, a web-based admin panel, and a Flutter-based mobile app. Ideal for businesses needing efficient task management in the field.",
+      "projectType": "Internal mobile app",
+      "platforms": [
+        "Android",
+        "iOS"
       ],
-      "technologies": [
+      "client": "Sifrah (Nationwide retail chain, Peru)",
+      "year": 2025,
+      "role" : "Flutter developer",
+      "contributions": [
+        "Built UI based on Figma-provided designs",
+        "Defined and applied a Clean Architecture project structure",
+        "Managed state using the BLoC pattern",
+        "Integrated RESTful APIs using Swagger documentation",
+        "Handled local data persistence and offline storage",
+        "Implemented the entire mobile application using Flutter and Dart",
+        "Used Windsurf AI and Cursor IDE to boost development productivity",
+        "Maintained source control and versioning with Git and GitHub",
+        "Collaborated with the team through Jira for task management",
+        "Configured CI/CD pipelines for build and deployment",
+        "Published the app to Google Play Store and Apple App Store"
+      ],
+      "tech_stack": [
         "Flutter",
         "Dart",
-        "Firebase",
-        "Clean Architecture"
+        "Clean Architecture",
+        "BLoC",
+        "REST API",
+        "Swagger",
+        "CI/CD",
+        "Git / GitHub",
+        "Cursor IDE",
+        "Visual Studio Code",
+        "Windsurf (AI autocompletion)",
+        "Jira",
+        "Figma"
       ],
+      "technologies": [],
+      "has_frame": false,
+      "screenshots": [
+        "https://yonelyvan.github.io/portfolio/data/imgs/projects/grow_sf/screen4.jpeg",
+        "https://yonelyvan.github.io/portfolio/data/imgs/projects/grow_sf/screen1.jpeg",
+        "https://yonelyvan.github.io/portfolio/data/imgs/projects/grow_sf/screen2.jpeg",
+        "https://yonelyvan.github.io/portfolio/data/imgs/projects/grow_sf/screen3.jpeg"
+        
+      ],
+      "links": {
+        "github": "nilll"
+      }
+    },
+        {
+      "id": "Christogram",
+      "title": "Christogram - Faith-Based Social Network for Schools",
+      "description": "Christogram is a cross-platform mobile application (Android & iOS) built with Flutter, designed as a faith-centered social network intended for religious institutions and school environments in the United States. It allows users to register, share posts (text and images), comment, like, reply, and participate in interactive challenges to earn points and advance levels. Core features include stories, a user profile with gallery and editing, social interactions (block/report users), and a gamified experience through a level-based point system.",
+      "projectType": "Internal mobile app",
+      "platforms": [
+        "Android",
+        "iOS"
+      ],
+      "client": "Religious organization targeting schools, USA",
+      "year": 2024,
+      "role" : "Flutter developer",
+      "contributions": [
+        "Implemented the entire cross-platform mobile app using Flutter and Dart",
+        "Structured the codebase with Clean Architecture principles",
+        "Applied best coding practices (SOLID, KISS, DRY) across the codebase",
+        "Integrated REST APIs using Swagger documentation and BLoC for state management",
+        "Implemented AWS Cognito for authentication and session handling",
+        "Connected the app to backend services via AWS Amplify and AWS Lambda",
+        "Built features like stories, posts, comments, replies, user profiles, and challenges",
+        "Handled multimedia (images, galleries) and level-based gamification system",
+        "Configured CI/CD pipelines and managed deployment for Android and iOS",
+        "Wrote unit and basic integration tests for core functionality",
+        "Collaborated with designers via Figma and tracked work through Jira",
+        "Maintained version control and collaboration through Git and GitHub"
+      ],
+      "tech_stack": [
+        "Flutter",
+        "Dart",
+        "Clean Architecture",
+        "BLoC",
+        "REST API",
+        "AWS Cognito", 
+        "AWS Amplify", 
+        "AWS Lambda",
+        "Swagger",
+        "CI/CD",
+        "Git / GitHub",
+        "Android Studio",
+        "Codeium (AI autocompletion)",
+        "Jira",
+        "Figma"
+      ],
+      "technologies": [],
+      "has_frame": false,
+      "screenshots": [
+        "https://yonelyvan.github.io/portfolio/data/imgs/projects/grow_chris/home.jpg",
+        "https://yonelyvan.github.io/portfolio/data/imgs/projects/grow_chris/profile.jpg",
+        "https://yonelyvan.github.io/portfolio/data/imgs/projects/grow_chris/levels.jpg",
+        "https://yonelyvan.github.io/portfolio/data/imgs/projects/grow_chris/challenge.jpg"
+      ],
+      "links": {
+        "github": "nilll"
+      }
+    },
+    {
+    "id": "Cheros",
+    "title": "Cheros App for Subcontractors",
+    "description": "A mobile solution that streamlines work-hour tracking and project supervision for subcontractors and workers. The app allows workers to clock in using GPS-based validation, track hours, document job completion with photos, and receive payments. Contractors can create projects, assign workers, monitor progress, generate reports, and issue invoices in a centralized platform.",
+    "projectType": "Internal mobile app",
+      "platforms": [
+        "Android",
+        "IOS"
+      ],
+ 
+     "client": "Undisclosed Client (Hourly subcontracting company, United States)",
+      "year": 2023,
+      "role": "Flutter Developer focused on integrations and technical problem-solving",
+      "contributions": [
+        "Integrated backend REST APIs for key user workflows",
+        "Implemented GPS-based location tracking for job site validation",
+        "Integrated Stripe for secure payment processing",
+        "Set up push notification handling for real-time updates",
+        "Optimized and resized uploaded images before storage or transmission",
+        "Resolved technical blockers to support team progress"
+      ],
+      "tech_stack": [
+        "Flutter", 
+        "GetX", 
+        "Stripe API", 
+        "Firebase Messaging",
+        "REST API", 
+        "GPS Services", 
+        "Image Compression",
+        "CI/CD",
+        "Git / GitHub",
+        "Android Studio",
+        "Codeium (AI autocompletion)",
+        "Notion",
+        "Asana",
+        "Figma"
+      ],
+      "technologies": [],
+      "has_frame": true,
+      "screenshots": [
+        "https://yonelyvan.github.io/portfolio/data/imgs/projects/atc_chrs/img1.jpg",
+        "https://yonelyvan.github.io/portfolio/data/imgs/projects/atc_chrs/img2.jpg",
+        "https://yonelyvan.github.io/portfolio/data/imgs/projects/atc_chrs/img3.jpg",
+        "https://yonelyvan.github.io/portfolio/data/imgs/projects/atc_chrs/im4.jpg"
+      ],
+      "links": {
+        "playStore": "nilll",
+        "appStore": "nilll",
+        "github": "nilll"
+      }
+    },
+        {
+    "id": "mitmn",
+    "title": "Mitim - On-Demand Home Services Platform",
+    "description": "Mitim is a dual-platform mobile application designed to connect customers with local service professionals such as electricians, painters, and handymen. Similar to Uber but for services, it streamlines booking, communication, and payments between users and providers, offering real-time tracking, calendar scheduling, and in-app chat powered by Firebase.",
+    "projectType": "Internal mobile app",
+      "platforms": [
+        "Android",
+        "IOS"
+      ],
+ 
+     "client": "Mitim (Home services company, Panama)",
+      "year": 2023,
+      "role": "Flutter Developer focused on integrations and technical problem-solving",
+      "contributions": [
+        "Implemented Google and Facebook login integration.",
+        "Redesigned service presentation structure for enhanced user experience.",
+        "Developed new UI layouts and implemented additional functionalities.",
+        "Set up CI/CD pipelines and handled builds for both Android and iOS.",
+        "Integrated Google Maps for selecting service locations with markers.",
+        "Created promotional content section for marketing campaigns.",
+        "Designed and implemented a new service status tracking interface (e.g., confirmed, on the way, in progress, completed).",
+        "Upgraded the project to the latest Flutter version and resolved migration-related issues.",
+        "Maintained dev/prod environments and managed release configurations."
+      ],
+      "tech_stack": [
+        "Flutter",
+        "GetX", 
+        "REST API", 
+        "GPS Services", 
+        "Firebase (Auth, Firestore, Messaging)",
+        "Google Maps API",
+        "Yappy Payment Gateway",
+        "CI/CD (GitHub Actions)",
+        "Google Sign-In",
+        "Facebook Login",
+        "Figma",
+        "Asana"
+      ],
+      "technologies": [],
+      "has_frame": true,
+      "screenshots": [
+        "https://yonelyvan.github.io/portfolio/data/imgs/projects/mt/img1.png",
+        "https://yonelyvan.github.io/portfolio/data/imgs/projects/mt/img2.png",
+        "https://yonelyvan.github.io/portfolio/data/imgs/projects/mt/img3.png",
+        "https://yonelyvan.github.io/portfolio/data/imgs/projects/mt/img4.png"
+      ],
+      "links": {
+        "playStore": "nilll",
+        "appStore": "nilll",
+        "github": "nilll"
+      }
+    },
+    {
+    "id": "daily_weight",
+    "title": "DailyWeight: Weight Monitor",
+    "description": "DailyWeight is a cross-platform mobile app designed to help users track their weight daily, stay motivated with their fitness goals, and calculate their Body Mass Index (BMI). It features personalized settings, visual progress charts, daily reminders, and local data storage, making it a complete self-monitoring tool.",
+    "projectType": "Internal mobile app",
+      "platforms": [
+        "Android",
+        "IOS"
+      ],
+ 
+      "client": "Personal side project",
+      "year": 2022,
+      "role": "Flutter Developer (Design, Development, Deployment)",
+      "contributions": [
+        "Designed the app logo using Figma",
+        "Implemented UI directly in code without third-party design tools",
+        "Developed BMI calculator and visual progress monitoring features",
+        "Integrated local storage with SQLite (sqflite)",
+        "Implemented daily reminders using local notifications",
+        "Added user preferences for measurement units (kg/lb, m/ft)",
+        "Built calendar view to visualize weigh-in history",
+        "Integrated AdMob for in-app advertising",
+        "Published the app to Google Play and Apple App Store" 
+      ],
+      "tech_stack": [
+        "Flutter", 
+        "Sqflite",
+        "Local Notifications",
+        "AdMob", 
+        "Android Studio",
+        "Xcode",
+        "Git / GitHub",
+        "Adobe Illustrator"
+      ],
+      "technologies": [],
+      "has_frame": true,
+      "screenshots": [
+        "https://yonelyvan.github.io/portfolio/data/imgs/projects/daily/img1.png",
+        "https://yonelyvan.github.io/portfolio/data/imgs/projects/daily/img2.png", 
+        "https://yonelyvan.github.io/portfolio/data/imgs/projects/daily/img4.png",
+        "https://yonelyvan.github.io/portfolio/data/imgs/projects/daily/img5.png"
+      ],
+      "links": {
+        "playStore": "nilll",
+        "appStore": "nilll",
+        "github": "nilll"
+      }
+    },
+    {
+    "id": "Checklist",
+    "title": "Checklist: Task List",
+    "description": "A minimalist cross-platform mobile app for managing task lists within personal projects. Users can create projects, add tasks, switch between light and dark modes, and focus only on pending tasks through a streamlined interface.",
+    "projectType": "Internal mobile app",
+      "platforms": [
+        "Android",
+        "IOS"
+      ],
+ 
+      "client": "Personal side project",
+      "year": 2019,
+      "role": "Solo Mobile Developer & Designer",
+          "contributions": [
+        "Designed and implemented the entire mobile application using Flutter and Dart",
+        "Created the app logo using Adobe Illustrator",
+        "Set up the project architecture and initial configurations",
+        "Designed and built the user interfaces from scratch",
+        "Implemented multi-language support (Spanish, English, Portuguese, French, etc.)",
+        "Configured platform-specific settings for both iOS and Android releases",
+        "Published the app to Google Play and App Store"
+      ],
+      "tech_stack": [
+        "Flutter",
+        "sqflite (local storage)",
+        "Adobe Illustrator",
+        "Google AdMob",
+        "Android Studio",
+        "Xcode",
+        "Git / GitHub",
+        "Play Store",
+        "App Store"
+      ],
+      "technologies": [],
+      "has_frame": false,
       "screenshots": [
         "https://yonelyvan.github.io/portfolio/data/imgs/projects/checklist/checklist_1.png",
         "https://yonelyvan.github.io/portfolio/data/imgs/projects/checklist/checklist_2.png",
@@ -22,32 +302,9 @@
         "https://yonelyvan.github.io/portfolio/data/imgs/projects/checklist/checklist_4.png"
       ],
       "links": {
-        "playStore": "https://play.google.com/store/apps/details?id=com.example.app",
-        "appStore": "https://apps.apple.com/app/id0000000000",
-        "github": "https://github.com/usuario/repositorio-app"
-      }
-    },
-    {
-      "id": "app2",
-      "title": "Otra App Interesante",
-      "description": "Aplicación orientada a resolver X problema. Incluye autenticación, notificaciones y diseño responsive.",
-      "tags": [
-        "React Native",
-        "Node.js"
-      ],
-      "technologies": [
-        "React Native",
-        "Node.js",
-        "MongoDB"
-      ],
-      "screenshots": [
-        "https://yonelyvan.github.io/portfolio/data/imgs/projects/grow_sf/screen1.jpeg",
-        "https://yonelyvan.github.io/portfolio/data/imgs/projects/grow_sf/screen2.jpeg",
-        "https://yonelyvan.github.io/portfolio/data/imgs/projects/grow_sf/screen3.jpeg",
-        "https://yonelyvan.github.io/portfolio/data/imgs/projects/grow_sf/screen4.jpeg"
-      ],
-      "links": {
-        "github": "https://github.com/usuario/otra-app"
+        "playStore": "nilll",
+        "appStore": "nilll",
+        "github": "nilll"
       }
     }
   ]
