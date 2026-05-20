@@ -1,6 +1,60 @@
 {
   "projects": [
-
+    {
+      "id": "NovaGuarding",
+      "title": "Nova Guarding",
+      "description": "Nova Guarding is a mobile application designed to optimize field operations in an efficient and centralized way. It enables real-time registration of incidents, activities, and resources, with support for GPS location, photo capture, and digital evidence. Its intuitive interface and modular architecture facilitate team coordination, task tracking, and full traceability of field actions. Users can create detailed reports, attach multimedia files, complete digital forms, manage operational resources, and review activity history from a single platform. Nova Guarding enhances productivity, streamlines communication, and provides a modern and reliable solution for daily operational management, adaptable to various work environments.",
+      "projectType": "Mobile application",
+      "platforms": [
+        "Android",
+        "iOS"
+      ],
+      "client": "Private client (Peru)",
+      "year": 2026,
+      "role": "Flutter developer",
+      "contributions": [
+        "Built responsive and scalable UI based on Figma designs",
+        "Implemented a modular architecture using Clean Architecture principles",
+        "Managed application state using Riverpod",
+        "Integrated RESTful APIs using Swagger documentation",
+        "Developed features for real-time incident and activity reporting",
+        "Integrated GPS functionality for location tracking",
+        "Implemented multimedia handling (camera, video, images, PDF attachments)",
+        "Configured deep linking for seamless navigation",
+        "Collaborated with cross-functional teams including designers, backend developers, QA, and team lead",
+        "Used AI tools like Cursor and Windsurf to improve development efficiency",
+        "Maintained version control with Git and GitHub",
+        "Worked with Jira for task tracking and team coordination"
+      ],
+      "tech_stack": [
+        "Flutter",
+        "Dart",
+        "Clean Architecture",
+        "Riverpod",
+        "REST API",
+        "Swagger",
+        "Deep Links",
+        "GPS",
+        "Camera Integration",
+        "Multimedia Handling",
+        "Git / GitHub",
+        "Cursor IDE",
+        "Windsurf (AI autocompletion)",
+        "Jira",
+        "Figma"
+      ],
+      "technologies": [],
+      "has_frame": true,
+      "screenshots": [
+        "https://yonelyvan.github.io/portfolio/data/imgs/projects/grow_nv/screen1.jpg",
+        "https://yonelyvan.github.io/portfolio/data/imgs/projects/grow_nv/screen2.jpg",
+        "https://yonelyvan.github.io/portfolio/data/imgs/projects/grow_nv/screen3.jpg",
+        "https://yonelyvan.github.io/portfolio/data/imgs/projects/grow_nv/screen4.jpg"
+      ],
+      "links": {
+        "github": "nilll"
+      }
+    },
     {
       "id": "Sifrah",
       "title": "Sifrah",
